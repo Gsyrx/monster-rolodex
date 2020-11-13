@@ -10,3 +10,12 @@ export const SearchBox = ({ placeholder, handleChange }) => (
     onChange={handleChange}
   />
 );
+
+// export const SearchBox = (props) => (
+//   <input
+//     className="search"
+//     type="search"
+//     placeholder={props.placeholder}
+//     onChange={props.handleChange}
+//   />
+// );
